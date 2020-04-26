@@ -15,9 +15,9 @@
 
 
 ## Example:
-### 1. [Hello Kotlin](https://github.com/huubao2309/demo_control_flutter#1-container-1)
-### 2. [Declare Variables](https://github.com/huubao2309/demo_control_flutter#2-text-1)
-### 3. [Loops and Ranges](https://github.com/huubao2309/demo_control_flutter#3-row-1)
+### 1. [Hello Kotlin](https://github.com/huubao2309/learn_kotlin#1-hello-kotlin-1)
+### 2. [Declare Variables]()
+### 3. [Loops and Ranges]()
 
 
 ==============================================================================
