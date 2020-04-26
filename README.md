@@ -24,4 +24,28 @@
 ## Setup Enviroment (on Windows):
 ### 1. Download and setup JDK:
 
-![Download_JDK](https://github.com/huubao2309/demo_control_flutter/blob/master/images/container/default_container.png)
+![Download_JDK](https://github.com/huubao2309/learn_kotlin/blob/master/image/download_jdk.png)
+
+### 2. Download Chocolatey:
+
+[Link](https://chocolatey.org/install)
+
+- Run PowerShell with "Run as administrator" and setup Chocolatey:
+
+![Setup_Choco](https://github.com/huubao2309/learn_kotlin/blob/master/image/setup_chocolatey.png)
+
+### 3. Download Kotlin Compiler:
+
+- Search package "Kotlin Compiler":
+
+![Setup_Kotlin](https://github.com/huubao2309/learn_kotlin/blob/master/image/search_kotlin.png)
+
+- Downlooad package "Kotlin Compiler":
+
+![Download_Kotlin](https://github.com/huubao2309/learn_kotlin/blob/master/image/click_kotlin_compiler.png)
+
+![Download_Kotlin_2](https://github.com/huubao2309/learn_kotlin/blob/master/image/click_kotlin_compiler_2.png)
+
+![Download_Kotlin_3](https://github.com/huubao2309/learn_kotlin/blob/master/image/install_success_kotlin.png)
+
+
