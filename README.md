@@ -16,7 +16,7 @@
 
 ## Example:
 ### 1. [Hello Kotlin](https://github.com/huubao2309/learn_kotlin#1-hello-kotlin-1)
-### 2. [Declare Variables]()
+### 2. [Declare Variables](https://github.com/huubao2309/learn_kotlin#1-declare-variables-1)
 ### 3. [Loops and Ranges]()
 
 
@@ -128,4 +128,30 @@
 	}
 ```
 
-### 2. Declare Variables:
+### 2. [Declare Variables:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Variables)
+
+*Link*: https://blog.danlew.net/2017/05/30/mutable-vals-in-kotlin/
+
+■ **Mutable** (keyword: *var*):
+
+```kotlin
+    var name: String = "Bill Nguyen"
+    println(name)
+	
+	// Change value
+    name = "Charlie Ha"
+    println(name)
+	
+	...
+```
+
+■ **Immutable** ((keyword: *val*)):
+
+```kotlin
+    val phone: String = "+84123456789"
+    println(phone)
+	
+	// Set value
+	phone = "+84987654321" // Can't set value with "Immutable"
+	...
+```
