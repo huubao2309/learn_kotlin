@@ -1,6 +1,6 @@
 fun main() {
     val stringValue: String = "Bill"
-    val intValue: Int = 10
+    val intValue: Int = 25
     val longValue: Long = 1995 // val year = 1995L
     val floatValue: Float = 10.0F
     val hexValue: Int = 0xFF
@@ -13,6 +13,9 @@ fun main() {
         WHERE ...
     """
 
+    val info = "My name is $stringValue"
+    val infoAge = "My name is ${intValue + 1}"
+
     // ============================
     println("String: " + stringValue)
     println("Int: " + intValue)
@@ -22,4 +25,6 @@ fun main() {
     println("Binary: " + binaryValue)
     println("Character: " + character)
     println("Multi Lines: " + multiLine)
+    println("Info: " + info)
+    println("Info: " + infoAge)
 }

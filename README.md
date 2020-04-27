@@ -159,7 +159,7 @@
 
 ■ **Note**: 
 
-	★ Kotlin requires init value when declare variables:
+  ★ Kotlin requires init value when declare variables:
 
 		```kotlin
 			val phone: String = "+84123456789" // True
@@ -167,7 +167,7 @@
 			...
 		```
 	
-	★ When declare a variable, We don't need to define type of the variable:
+  ★ When declare a variable, We don't need to define type of the variable:
 	
 		```kotlin
 			val phone: String = "+84123456789" // True
@@ -175,7 +175,9 @@
 			...
 		```
 	
-### 3. [Type of Variables:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Type_Variables)	
+### 3. [Type of Variables:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Type_Variables)
+
+**Reference**: https://kotlinlang.org/docs/reference/basic-types.html
 
 ```kotlin
     val stringValue: String = "Bill"
@@ -193,4 +195,5 @@
     """
 	...
 ```
+
 	
