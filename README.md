@@ -18,7 +18,7 @@
 ### 1. [Hello Kotlin](https://github.com/huubao2309/learn_kotlin#1-hello-kotlin-1)
 ### 2. [Declare Variables](https://github.com/huubao2309/learn_kotlin#2-declare-variables-1)
 ### 3. [Type of Variables](https://github.com/huubao2309/learn_kotlin#3-type-of-variables-1)
-### 4. [Loops and Ranges]()
+### 4. [Loops and Ranges](https://github.com/huubao2309/learn_kotlin#4-loops-and-ranges-1)
 
 
 ==============================================================================
@@ -196,4 +196,35 @@
 	...
 ```
 
-	
+### 4. [Loops and Ranges:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Loop_Ranges)	
+
+**Reference**: https://kotlinlang.org/docs/reference/control-flow.html#for-loops
+**Source**: https://github.com/huubao2309/learn_kotlin/tree/master/src/Loop_Ranges
+
+```kotlin
+    // For
+	for (item in 1..10) {
+        print("$item -> ")
+    }
+	...
+```
+
+```kotlin
+    // While
+   var item = 3
+    while (item < 11) {
+        print("$item -> ")
+        item++
+    }
+	...
+```
+
+```kotlin
+    // Do While
+    var item1 = 5
+    do {
+        print("$item1 -> ")
+        item1++
+    } while (item1 < 15)
+	...
+```
