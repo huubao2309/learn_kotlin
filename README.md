@@ -163,7 +163,7 @@
 
 ```kotlin
 	val phone: String = "+84123456789" // True
-	val phone: String 				   // False
+	val phone: String 		   // False
 	...
 ```
 	
@@ -171,7 +171,7 @@
 	
 ```kotlin
 	val phone: String = "+84123456789" // True
-	val phone = "+84123456789" 		   // True
+	val phone = "+84123456789" 	   // True
 	...
 ```
 	
