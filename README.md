@@ -132,7 +132,7 @@
 
 *Link*: https://blog.danlew.net/2017/05/30/mutable-vals-in-kotlin/
 
-■ **Mutable** (keyword: *var*):
+■ **Mutable** (**keyword**: *var*):
 
 ```kotlin
     var name: String = "Bill Nguyen"
@@ -145,7 +145,7 @@
 	...
 ```
 
-■ **Immutable** ((keyword: *val*)):
+■ **Immutable** (**keyword**: *val*):
 
 ```kotlin
     val phone: String = "+84123456789"
@@ -155,3 +155,24 @@
 	phone = "+84987654321" // Can't set value with "Immutable"
 	...
 ```
+
+■ **Note**: 
+
+	★ Kotlin requires init value when declare variables)
+
+	```kotlin
+		val phone: String = "+84123456789" // True
+		val phone: String 				   // False
+		...
+	```
+	
+	★ When declare a variable, We don't need to define type of the variable
+	
+	```kotlin
+		val phone: String = "+84123456789" // True
+		val phone = "+84123456789" 		   // True
+		...
+	```
+	
+	
+	
