@@ -17,7 +17,7 @@
 ## Example:
 ### 1. [Hello Kotlin](https://github.com/huubao2309/learn_kotlin#1-hello-kotlin-1)
 ### 2. [Declare Variables](https://github.com/huubao2309/learn_kotlin#2-declare-variables-1)
-### 3. [Type of Variables]()
+### 3. [Type of Variables](https://github.com/huubao2309/learn_kotlin#3-type-of-variables-1)
 ### 4. [Loops and Ranges]()
 
 
@@ -161,19 +161,19 @@
 
   ★ Kotlin requires init value when declare variables:
 
-		```kotlin
-			val phone: String = "+84123456789" // True
-			val phone: String 				   // False
-			...
-		```
+	```kotlin
+		val phone: String = "+84123456789" // True
+		val phone: String 				   // False
+		...
+	```
 	
   ★ When declare a variable, We don't need to define type of the variable:
 	
-		```kotlin
-			val phone: String = "+84123456789" // True
-			val phone = "+84123456789" 		   // True
-			...
-		```
+	```kotlin
+		val phone: String = "+84123456789" // True
+		val phone = "+84123456789" 		   // True
+		...
+	```
 	
 ### 3. [Type of Variables:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Type_Variables)
 
