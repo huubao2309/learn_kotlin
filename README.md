@@ -16,8 +16,9 @@
 
 ## Example:
 ### 1. [Hello Kotlin](https://github.com/huubao2309/learn_kotlin#1-hello-kotlin-1)
-### 2. [Declare Variables](https://github.com/huubao2309/learn_kotlin#1-declare-variables-1)
-### 3. [Loops and Ranges]()
+### 2. [Declare Variables](https://github.com/huubao2309/learn_kotlin#2-declare-variables-1)
+### 3. [Type of Variables]()
+### 4. [Loops and Ranges]()
 
 
 ==============================================================================
@@ -158,21 +159,38 @@
 
 ■ **Note**: 
 
-	★ Kotlin requires init value when declare variables)
+	★ Kotlin requires init value when declare variables:
 
-	```kotlin
-		val phone: String = "+84123456789" // True
-		val phone: String 				   // False
-		...
-	```
+		```kotlin
+			val phone: String = "+84123456789" // True
+			val phone: String 				   // False
+			...
+		```
 	
-	★ When declare a variable, We don't need to define type of the variable
+	★ When declare a variable, We don't need to define type of the variable:
 	
-	```kotlin
-		val phone: String = "+84123456789" // True
-		val phone = "+84123456789" 		   // True
-		...
-	```
+		```kotlin
+			val phone: String = "+84123456789" // True
+			val phone = "+84123456789" 		   // True
+			...
+		```
 	
-	
+### 3. [Type of Variables:](https://github.com/huubao2309/learn_kotlin/tree/master/src/Type_Variables)	
+
+```kotlin
+    val stringValue: String = "Bill"
+    val intValue: Int = 10
+    val longValue: Long = 1995 // val year = 1995L
+    val floatValue: Float = 10.0F
+    val hexValue: Int = 0xFF
+    val binaryValue: Int = 0xb11
+    val character: Char = 'B'
+
+    val multiLine = """
+        SELECT *
+        FROM COLUMN
+        WHERE ...
+    """
+	...
+```
 	
